@@ -1,11 +1,8 @@
 # Based on theme
 https://github.com/pages-themes/modernist?tab=readme-ov-file
 
-# Install github-pages gem
-https://rubygems.org/gems/github-pages
-```
-gem install github-pages
-```
+# Install ruby on windows
+https://jekyllrb.com/docs/installation/windows/
 
 # Preview locally
 

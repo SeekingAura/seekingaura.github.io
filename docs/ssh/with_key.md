@@ -53,7 +53,6 @@ more info about config check https://www.man7.org/linux/man-pages/man5/sshd_conf
 - [Create Key and pub file](#create-key-and-pub-file)
   - [RSA Algorithm - Most common](#rsa-algorithm---most-common)
   - [Ed25519 Algorithm](#ed25519-algorithm)
-- [](#)
 - [References](#references)
 
 
@@ -125,13 +124,12 @@ This modern algorithm is considered **safer** than *RSA* and *ECDSA* for SSH, un
 ssh-keygen -t ed25519 -C "user@domain"
 ```
 
-#
-
 # References
 * [How do I list available host key algorithms for an SSH client?](https://unix.stackexchange.com/questions/223276/how-do-i-list-available-host-key-algorithms-for-an-ssh-client)
 * [What is the public key length of RSA and Ed25519?](https://crypto.stackexchange.com/questions/87715/what-is-the-public-key-length-of-rsa-and-ed25519#:~:text=For%20ed25519%20the%20'blob'%20data,to%2068%20chars%20(exactly).)
 * [SSH keys - Archilinux](https://wiki.archlinux.org/title/SSH_keys#:~:text=There%20is%20no%20need%20to%20set%20the%20key%20size%2C%20as,may%20not%20support%20these%20keys.)
 * [How to append authorized_keys on the remote server with id_rsa.pub key](https://stackoverflow.com/questions/23591083/how-to-append-authorized-keys-on-the-remote-server-with-id-rsa-pub-key)
+
 ---
 
 <!-- omit from toc -->

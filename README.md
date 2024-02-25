@@ -1,5 +1,5 @@
 # Based on theme
-https://github.com/pages-themes/modernist?tab=readme-ov-file
+https://github.com/pages-themes/slate?tab=readme-ov-file
 
 # Install ruby on windows
 https://jekyllrb.com/docs/installation/windows/

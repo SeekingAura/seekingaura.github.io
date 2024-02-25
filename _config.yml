@@ -1,5 +1,5 @@
-remote_theme: pages-themes/modernist@v0.2.0
+remote_theme: pages-themes/slate@v0.2.0
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
-title: Seeking homepage
-description: Bookmark this to keep an eye on my project updates!
+- jekyll-remote-theme
+title: SeekingAura Developer, Gamer
+description: Never stop learning

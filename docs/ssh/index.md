@@ -8,11 +8,11 @@ Secure Shell is the protocol that allow to send commands to another computer in 
 
 These notes are focused on [OpenSSH](https://www.openssh.com/) client and server
 
-* [SSH with key, prevent password usage](with_key)
+* [SSH with key, prevent password usage](/docs/ssh/with_key)
 
 ---
 
 <!-- omit from toc -->
 # Navigation
-* [Docs index](../index)
+* [Docs index](/docs)
 * [Main index](/)

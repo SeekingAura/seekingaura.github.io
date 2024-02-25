@@ -136,5 +136,5 @@ ssh-keygen -t ed25519 -C "user@domain"
 
 <!-- omit from toc -->
 # Navigation
-* [SSH index](index)
-* [Docs index](../index)
+* [SSH index](/docs/ssh)
+* [Docs index](/docs)

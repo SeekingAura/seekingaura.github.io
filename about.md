@@ -17,6 +17,12 @@ You can found a summary about me [here](https://github.com/SeekingAura)
   - [Server Administrador (Linux)](#server-administrador-linux)
   - [Gaming programming Scripts and Server](#gaming-programming-scripts-and-server)
 - [Learning](#learning)
+  - [Projects](#projects)
+    - [Technological University of Pereira](#technological-university-of-pereira)
+      - [Solving 8puzzle with A\* implemented with Java on Robot Lego Ev3 - Course project](#solving-8puzzle-with-a-implemented-with-java-on-robot-lego-ev3---course-project)
+      - [Mobile App for Bird Recognition at JBUTP - Computer Science Bachelor Thesis](#mobile-app-for-bird-recognition-at-jbutp---computer-science-bachelor-thesis)
+      - [PhytoVision: Sistema de medición de crecimiento In vitro de plántulas de Lactuca sativa L. - Computer Science Master's Thesis](#phytovision-sistema-de-medición-de-crecimiento-in-vitro-de-plántulas-de-lactuca-sativa-l---computer-science-masters-thesis)
+      - [Basics in Internet of Things on raspberry Pi - Course Instructor](#basics-in-internet-of-things-on-raspberry-pi---course-instructor)
 - [What does "Seeking Aura" mean?](#what-does-seeking-aura-mean)
   - [Seeking part](#seeking-part)
   - [Aura part](#aura-part)
@@ -43,6 +49,24 @@ Some game "servers" are in C++ and projects like https://www.trinitycore.org/, h
 I never stop learning current i'm learning about Python, Data science, Big data Pandas, numpy.
 
 I love solve exercises from [exercism](https://exercism.org/profiles/Seeking) and [HackerRank](https://www.hackerrank.com/) this help me to reinforce my knowledge about algorithms, structures, techniques and programming languages in general (Actually Python, C\# and Go).
+
+## Projects
+Some projects that i worked are
+
+### Technological University of Pereira
+#### Solving 8puzzle with A* implemented with Java on Robot Lego Ev3 - Course project
+https://github.com/SeekingAura/RobotLegoEV3Java8Puzzle
+
+#### Mobile App for Bird Recognition at JBUTP - Computer Science Bachelor Thesis
+https://repositorio.utp.edu.co/items/31b214e0-822f-4ddd-b0a1-d61708a1c32a
+
+#### PhytoVision: Sistema de medición de crecimiento In vitro de plántulas de Lactuca sativa L. - Computer Science Master's Thesis
+https://repositorio.utp.edu.co/items/85784114-45ed-4161-a9ea-63f1fbe38e19
+
+#### Basics in Internet of Things on raspberry Pi - Course Instructor
+This was one of extension courses at UTP https://repositorio.utp.edu.co/items/60522ca7-4709-48aa-be97-41d148fdf572
+
+Public Github Repo with Technical content: https://github.com/SeekingAura/IoTCurseUTP
 
 # What does "Seeking Aura" mean?
 Seeking Aura is my full nickname, this is made up of two parts "Seeking" and "Aura".

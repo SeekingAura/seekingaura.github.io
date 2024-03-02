@@ -1,3 +1,6 @@
+---
+title: SSH pem/key file
+---
 <!-- omit from toc -->
 # SSH remote connection with pem/key file
 Use ssh with user and password it can be a bit annoying to write the password each time you stablish ssh connection and is also vulnerable to brute force access attacks (try multiple usernames and password).

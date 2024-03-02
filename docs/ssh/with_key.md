@@ -277,6 +277,7 @@ More info about client config file check https://linux.die.net/man/5/ssh_config
 * [SSH keys - Archilinux](https://wiki.archlinux.org/title/SSH_keys#:~:text=There%20is%20no%20need%20to%20set%20the%20key%20size%2C%20as,may%20not%20support%20these%20keys.)
 * [How to append authorized_keys on the remote server with id_rsa.pub key](https://stackoverflow.com/questions/23591083/how-to-append-authorized-keys-on-the-remote-server-with-id-rsa-pub-key)
 * [Using ICACLS to set file permission to 'read-only'](https://stackoverflow.com/questions/43312953/using-icacls-to-set-file-permission-to-read-only/43317244#43317244)
+
 ---
 
 <!-- omit from toc -->

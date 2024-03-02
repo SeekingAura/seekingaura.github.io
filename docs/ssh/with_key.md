@@ -2,7 +2,24 @@
 # SSH remote connection with pem/key file
 Use ssh with user and password it can be a bit annoying to write the password each time you stablish ssh connection and is also vulnerable to brute force access attacks (try multiple usernames and password).
 
-To prevent this and forgot your password use pem/key file instead, this guide
+To prevent this and forgot password use pem/key file instead, this guide
+
+<!-- omit from toc -->
+# TOC
+- [SSH key file creation requisites](#ssh-key-file-creation-requisites)
+  - [SSH Key algorithms](#ssh-key-algorithms)
+  - [Comment on pub file](#comment-on-pub-file)
+  - [Bits of pem file](#bits-of-pem-file)
+- [Init Private and public key file generation](#init-private-and-public-key-file-generation)
+  - [RSA Algorithm - Most common](#rsa-algorithm---most-common)
+  - [Ed25519 Algorithm](#ed25519-algorithm)
+- [Key generation steps after keygen init](#key-generation-steps-after-keygen-init)
+- [Config key access on server](#config-key-access-on-server)
+  - [Public Key on server](#public-key-on-server)
+  - [Disable password authentication on SSH server](#disable-password-authentication-on-ssh-server)
+  - [Config private key for ssh client](#config-private-key-for-ssh-client)
+  - [Config ssh client for key usage](#config-ssh-client-for-key-usage)
+- [References](#references)
 
 <!-- omit from toc -->
 # TL;DR
@@ -59,23 +76,6 @@ ssh alias
 ```
 
 More info about client config file check https://linux.die.net/man/5/ssh_config
-<!-- omit from toc -->
-# TOC
-- [SSH key file creation requisites](#ssh-key-file-creation-requisites)
-  - [SSH Key algorithms](#ssh-key-algorithms)
-  - [Comment on pub file](#comment-on-pub-file)
-  - [Bits of pem file](#bits-of-pem-file)
-- [Init Private and public key file generation](#init-private-and-public-key-file-generation)
-  - [RSA Algorithm - Most common](#rsa-algorithm---most-common)
-  - [Ed25519 Algorithm](#ed25519-algorithm)
-- [Key generation steps after keygen init](#key-generation-steps-after-keygen-init)
-- [Config key access on server](#config-key-access-on-server)
-  - [Public Key on server](#public-key-on-server)
-  - [Disable password authentication on SSH server](#disable-password-authentication-on-ssh-server)
-  - [Config private key for ssh client](#config-private-key-for-ssh-client)
-  - [Config ssh client for key usage](#config-ssh-client-for-key-usage)
-- [References](#references)
-
 
 # SSH key file creation requisites
 ## SSH Key algorithms

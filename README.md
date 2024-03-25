@@ -4,6 +4,9 @@ https://github.com/pages-themes/slate?tab=readme-ov-file
 # Install ruby on windows
 https://jekyllrb.com/docs/installation/windows/
 
+# Static files on jekyll
+https://jekyllrb.com/docs/static-files/
+
 # Preview locally
 
 ## Pre-requisites
@@ -11,8 +14,8 @@ https://jekyllrb.com/docs/installation/windows/
 gem install github-pages -v 231
 gem install wdm
 gem install bundler
+gem install webrick
 bundle install
-bundle add webrick
 ```
 
 ## Run locally

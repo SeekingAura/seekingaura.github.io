@@ -13,6 +13,7 @@ To use cloudflare tunnel the device where the service that you want to expose th
 - [Windows - Manually](#windows---manually)
   - [Download executable](#download-executable)
   - [Move to anywhere you want](#move-to-anywhere-you-want)
+  - [Set to environment PATH](#set-to-environment-path)
 - [Linux - Ubuntu](#linux---ubuntu)
 
 
@@ -23,7 +24,7 @@ Run a CMD with admin privilegies install with winget (that can installed from Mi
 winget install --id Cloudflare.cloudflared
 ```
 
-For limited permission case download executable [Windows 64 bits](https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.exe) and use
+For limited permission case use executable [Windows 64 bits](https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-windows-amd64.exe)
 
 
 # Windows - With Winget
@@ -87,6 +88,10 @@ and then run cloduflared commands
 ```shell
 cloudflared --version
 ```
+
+## Set to environment PATH
+
+To run command cloduflared from anywhere add the folder where the *cloudflared.exe* is on this example **.exe** are at `C:\cloudflared\cloudflared.exe` so then add to env var PATH the value `C:\cloudflared`, and open new termianl and try, if does not work reboot.
 
 
 # Linux - Ubuntu

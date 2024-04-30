@@ -5,13 +5,11 @@ title: Tunnel with Cloudflare
 
 # Cloudflared - Tunnel with Cloudflare 
 
-A tunnel is a secure, outbound-only pathway you can establish between your origin to global network without **publicly routable IP address**, on this case Cloudflare have `Cloudflared tunnels` these connect to global Cloudflare's global network [followed by](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/tunnel-useful-terms/#tunnel). 
+A tunnel is a secure, outbound-only pathway you can establish between your origin to global network without **publicly routable IP address**, on this case Cloudflare have `Cloudflared tunnels` these connect to global Cloudflare's global network [followed by](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/tunnel-useful-terms/#tunnel). Tunnels are managed on cloudflare and use *Authentication* of your cloudflare account to work
 
 These notes are based on [Cloudflared Official](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/)
 
-* [Cloudflared Installation](/docs/cloudflared/install)
-* [Cloudflared Authentication](/docs/cloudflared/auth)
-* [Cloudflared Expose port](/docs/cloudflared/port)
+* [Cloudflared local (CLI)](/docs/cloudflared/local)
 
 ---
 
@@ -19,8 +17,3 @@ These notes are based on [Cloudflared Official](https://developers.cloudflare.co
 # Navigation
 * [Docs index](/docs)
 * [Main index](/)
-
-
-
-
-Tunnels are managed on cloudflare and use *Authentication* of your cloudflare account to work

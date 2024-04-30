@@ -99,8 +99,11 @@ ToDo
 
 ---
 
+[Next](/docs/cloudflared/local/auth)
+
 <!-- omit from toc -->
 # Navigation
+* [Cloudflared local index](/docs/cloudflared/local)
 * [Cloudflared index](/docs/cloudflared)
 * [Docs index](/docs)
 

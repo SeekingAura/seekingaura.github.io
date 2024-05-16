@@ -1,30 +1,13 @@
 ---
-title: SSH pem/key file
+title: SSH | pem/key file
+permalink: /docs/dev_notes/ssh/with_key/
+toc: true
 ---
-<!-- omit from toc -->
 # SSH remote connection with pem/key file
 Use ssh with user and password it can be a bit annoying to write the password each time you stablish ssh connection and is also vulnerable to brute force access attacks (try multiple usernames and password).
 
 To prevent this and forgot password use pem/key file instead, this guide
 
-<!-- omit from toc -->
-# TOC
-- [SSH key file creation requisites](#ssh-key-file-creation-requisites)
-  - [SSH Key algorithms](#ssh-key-algorithms)
-  - [Comment on pub file](#comment-on-pub-file)
-  - [Bits of pem file](#bits-of-pem-file)
-- [Init Private and public key file generation](#init-private-and-public-key-file-generation)
-  - [RSA Algorithm - Most common](#rsa-algorithm---most-common)
-  - [Ed25519 Algorithm](#ed25519-algorithm)
-- [Key generation steps after keygen init](#key-generation-steps-after-keygen-init)
-- [Config key access on server](#config-key-access-on-server)
-  - [Public Key on server](#public-key-on-server)
-  - [Disable password authentication on SSH server](#disable-password-authentication-on-ssh-server)
-  - [Config private key for ssh client](#config-private-key-for-ssh-client)
-  - [Config ssh client for key usage](#config-ssh-client-for-key-usage)
-- [References](#references)
-
-<!-- omit from toc -->
 # TL;DR
 To create ssh Private and Public key run this command
 ```bash
@@ -88,18 +71,18 @@ ssh -Q key
 ```
 
 param **-Q** query something of ssh-keygen on this case key algorithms, that output something like this
-```txt
-ssh-ed25519-cert-v01@openssh.com
-ssh-rsa
-ssh-dss
-ecdsa-sha2-nistp256
-ecdsa-sha2-nistp384
-ecdsa-sha2-nistp521
-ssh-rsa-cert-v01@openssh.com
-ecdsa-sha2-nistp256-cert-v01@openssh.com
-ecdsa-sha2-nistp384-cert-v01@openssh.com
-ecdsa-sha2-nistp521-cert-v01@openssh.com
-```
+
+ssh-ed25519-cert-v01@openssh.com  
+ssh-rsa  
+ssh-dss  
+ecdsa-sha2-nistp256  
+ecdsa-sha2-nistp384  
+ecdsa-sha2-nistp521  
+ssh-rsa-cert-v01@openssh.com  
+ecdsa-sha2-nistp256-cert-v01@openssh.com  
+ecdsa-sha2-nistp384-cert-v01@openssh.com  
+ecdsa-sha2-nistp521-cert-v01@openssh.com  
+{: .notice}
 
 To select an specific algorithm use param **-t** on **ssh-keygen** command, for example to create key with rsa algorithm run this command:
 ```bash
@@ -236,7 +219,7 @@ if you are on server machine connected via ssh restart the service will not clos
 ## Config private key for ssh client
 The private key must have permissions of the user that will stablish an ssh connection
 
-```
+```bash
 chmod 400 ~/.ssh/id_rsa
 ```
 
@@ -275,15 +258,9 @@ More info about client config file check https://linux.die.net/man/5/ssh_config
 
 
 # References
+{:.no_toc}
 * [How do I list available host key algorithms for an SSH client?](https://unix.stackexchange.com/questions/223276/how-do-i-list-available-host-key-algorithms-for-an-ssh-client)
 * [What is the public key length of RSA and Ed25519?](https://crypto.stackexchange.com/questions/87715/what-is-the-public-key-length-of-rsa-and-ed25519#:~:text=For%20ed25519%20the%20'blob'%20data,to%2068%20chars%20(exactly).)
 * [SSH keys - Archilinux](https://wiki.archlinux.org/title/SSH_keys#:~:text=There%20is%20no%20need%20to%20set%20the%20key%20size%2C%20as,may%20not%20support%20these%20keys.)
 * [How to append authorized_keys on the remote server with id_rsa.pub key](https://stackoverflow.com/questions/23591083/how-to-append-authorized-keys-on-the-remote-server-with-id-rsa-pub-key)
 * [Using ICACLS to set file permission to 'read-only'](https://stackoverflow.com/questions/43312953/using-icacls-to-set-file-permission-to-read-only/43317244#43317244)
-
----
-
-<!-- omit from toc -->
-# Navigation
-* [SSH index](/docs/ssh)
-* [Docs index](/docs)

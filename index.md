@@ -1,20 +1,23 @@
 ---
 permalink: /
+author_profile: true
 ---
 
 # Welcome to SeekingAura Site
 This is the Website site of seeking aura, site where i share public projects, public notes and more useful information for Devs, Data scientist, Server Admins, technology enthusiasts and any who wants information about programming
 
-# Notes, tips and cheat sets for Developers!
-Research and progress in the different fields of science and technology have allowed us to constantly innovate.
+# How read this site?
+At the top of the website are a sidebar where can found the main topics of the website, click on any theme that you are interesed like
+* Developer notes
+* About
+* Gaming Notes
 
-It is our duty to be updated on the changes in technology through personal projects in order to test, contribute and be in constant improvement, in our jobs to show the benefits of these technologies and encourage innovation and be protected from new vulnerabilities.
+In most pages will have a navbar at left part of the website, there can found the different topics you can click to every topic that you want, as you browse the navbar will change showing the subtopics of the site you are on.
 
-* Are you learning Software Development?
-* Are you working on Software Development?
-* Do you care about how things work?
+At the top you can navigate to 
 
-Here you can found programming notes, that i build in my learning and working experience could be useful for your dev learning and working check [Programming notes](docs)
+**I will be updating whenever possible., Enjoy!!**
 
-# Who SeekingAura is?
-Do you want know more about me? check [here](/about)
+**ToDo** Search bar
+{: .notice--info}
+

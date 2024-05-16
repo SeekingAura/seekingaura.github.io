@@ -1,23 +1,11 @@
 ---
-title: Cloudflared-Install
+title: Cloudflared Local | Install
+permalink: /docs/dev_notes/cloudflared_local/install/
+toc: true
 ---
-<!-- omit from toc -->
-# Cloudflared Install on device
 To use cloudflare tunnel the device where the service that you want to expose the service or connection (server-side demon), the [official guide](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/get-started/create-local-tunnel/#1-download-and-install-cloudflared) have a detailed steps, but on this guide will have more examples and more detailed cases.
 
-<!-- omit from toc -->
-# TOC
-- [Windows - With Winget](#windows---with-winget)
-  - [Install winget](#install-winget)
-  - [Use winget to install](#use-winget-to-install)
-- [Windows - Manually](#windows---manually)
-  - [Download executable](#download-executable)
-  - [Move to anywhere you want](#move-to-anywhere-you-want)
-  - [Set to environment PATH](#set-to-environment-path)
-- [Linux - Ubuntu](#linux---ubuntu)
 
-
-<!-- omit from toc -->
 # TL;DR - Windows
 Run a CMD with admin privilegies install with winget (that can installed from Microsoft Store have the name ["App Installer"](https://www.microsoft.com/store/productId/9NBLGGH4NNS1?ocid=pdpshare)):
 ```shell
@@ -39,17 +27,17 @@ winget --info
 
 if output something like this, winget was installed ok
 
-```txt
-Windows Package Manager v1.7.10661
-Copyright (c) Microsoft Corporation. All rights reserved.
-
-Windows: Windows.Desktop v10.0.19045.4170
-System Architecture: X64
-Package: Microsoft.DesktopAppInstaller v1.22.10661.0
-
-Winget Directories
-...
 ```
+Windows Package Manager v1.7.10661
+Copyright (c) Microsoft Corporation. All rights reserved.  
+<br>
+Windows: Windows.Desktop v10.0.19045.4170  
+System Architecture: X64  
+Package: Microsoft.DesktopAppInstaller v1.22.10661.0  
+<br>
+Winget Directories  
+...
+{: .notice}
 
 If something is wrong try reboot system and try again run command info again
 
@@ -95,15 +83,5 @@ To run command cloduflared from anywhere add the folder where the *cloudflared.e
 
 
 # Linux - Ubuntu
-ToDo
-
----
-
-[Next](/docs/cloudflared/local/auth)
-
-<!-- omit from toc -->
-# Navigation
-* [Cloudflared local index](/docs/cloudflared/local)
-* [Cloudflared index](/docs/cloudflared)
-* [Docs index](/docs)
-
+**ToDo**
+{: .notice--warning}

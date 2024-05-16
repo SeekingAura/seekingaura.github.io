@@ -1,0 +1,48 @@
+remote_theme: mmistakes/minimal-mistakes@4.26.1
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+minimal_mistakes_skin: dark
+locale: en-US
+# search https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-search
+author:
+  name: "Carlos Moreno"
+  avatar: "https://avatars.githubusercontent.com/u/14566919?v=4"
+  bio: "Versatile and skilled in software development with over five years of experience in various roles." # Note: Markdown is allowed
+  location: "Portugal"
+  links:
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/carlos-arturo-moreno-tabares-4b323022b/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/SeekingAura"
+enable_copy_code_button: true
+title_separator: "|"
+
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      toc_label: "Table of Contents"
+      toc_sticky: true
+  - scope:
+      path: "docs/dev_notes/cloudflared_local"
+      type: pages
+    values:
+      sidebar:
+        nav: "dev_notes-cloudflared_local"
+  - scope:
+      path: "docs/dev_notes/ssh"
+      type: pages
+    values:
+      sidebar:
+        nav: "dev_notes-ssh"
+
+name: Carlos Moreno
+title: SeekingAura Developer, Gamer
+description: >- 
+  Never stop learning

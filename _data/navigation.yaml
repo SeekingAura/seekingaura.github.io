@@ -1,0 +1,50 @@
+# main links
+main:
+  - title: Dev notes
+    url: /docs/dev_notes/
+    description: Code snipes and short tutorials about Software development
+  - title: "Gaming notes (ToDo)"
+    url: /
+    description: Tutorials about gaming
+  - title: "About"
+    url: /about/
+    description: Detailed info about Author site
+
+# Navbars
+
+docs:
+  - title: General Docs
+    url: /docs/
+    children:
+      - title: "Dev Notes"
+        url: /docs/dev_notes/
+
+
+dev_notes:
+  - title: Dev Notes
+    url: /docs/dev_notes/
+    children:
+      - title: "Cloudflared Local Tunnel"
+        url: /docs/dev_notes/cloudflared_local/
+      - title: "SSH"
+        url: /docs/dev_notes/ssh/
+
+# Cloudflared Local
+dev_notes-cloudflared_local:
+  - title: Cloudflared Local Tunnel
+    url: /docs/dev_notes/cloudflared_local/
+    children:
+      - title: "Install"
+        url: /docs/dev_notes/cloudflared_local/install/
+      - title: "Auth"
+        url: /docs/dev_notes/cloudflared_local/auth/
+      - title: "Create Tunnel"
+        url: /docs/dev_notes/cloudflared_local/create_tunnel/
+
+dev_notes-ssh:
+  - title: SSH
+    url: /docs/dev_notes/ssh/
+    children:
+      - title: "With Key"
+        url: /docs/dev_notes/ssh/with_key/
+      

@@ -1,0 +1,11 @@
+Carlos Moreno:
+  name        : "Carlos Moreno"
+  bio         : "Versatile and skilled in software development with over five years of experience in various roles."
+  avatar      : "https://avatars.githubusercontent.com/u/14566919?v=4"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:dev@seekingaura.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/SeekingAura"

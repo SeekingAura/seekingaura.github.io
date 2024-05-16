@@ -1,3 +1,10 @@
+---
+title: About
+permalink: /about/
+author_profile: true
+toc: true
+---
+
 <!-- omit from toc -->
 # About Seeking Aura
 

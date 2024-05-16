@@ -1,12 +1,9 @@
 ---
-title: About
+title: About Seeking Aura
 permalink: /about/
 author_profile: true
 toc: true
 ---
-
-<!-- omit from toc -->
-# About Seeking Aura
 
 Hi!!!
 
@@ -15,26 +12,6 @@ I am a versatile and skilled in software development with over six years of expe
 Actually i'm improving my expertise by solving algorithmic problems and keeping up with the latest changes in technology specially on Python, Linux Shell, Docker, Postgresql, Mysql, Oracle, Go, Rust and More! My focus is over Database administration (DBA).
 
 You can found a summary about me [here](https://github.com/SeekingAura)
-
-- [Work Experience](#work-experience)
-  - [Data Base Administrator](#data-base-administrator)
-  - [Data science](#data-science)
-  - [Web Development](#web-development)
-  - [Containerization](#containerization)
-  - [Server Administrador (Linux)](#server-administrador-linux)
-  - [Gaming programming Scripts and Server](#gaming-programming-scripts-and-server)
-- [Learning](#learning)
-  - [Projects](#projects)
-    - [Technological University of Pereira](#technological-university-of-pereira)
-      - [Solving 8puzzle with A\* implemented with Java on Robot Lego Ev3 - Course project](#solving-8puzzle-with-a-implemented-with-java-on-robot-lego-ev3---course-project)
-      - [Mobile App for Bird Recognition at JBUTP - Computer Science Bachelor Thesis](#mobile-app-for-bird-recognition-at-jbutp---computer-science-bachelor-thesis)
-      - [PhytoVision: Sistema de medición de crecimiento In vitro de plántulas de Lactuca sativa L. - Computer Science Master's Thesis](#phytovision-sistema-de-medición-de-crecimiento-in-vitro-de-plántulas-de-lactuca-sativa-l---computer-science-masters-thesis)
-      - [Basics in Internet of Things on raspberry Pi - Course Instructor](#basics-in-internet-of-things-on-raspberry-pi---course-instructor)
-- [What does "Seeking Aura" mean?](#what-does-seeking-aura-mean)
-  - [Seeking part](#seeking-part)
-  - [Aura part](#aura-part)
-  - [Preferred Nickname](#preferred-nickname)
-
 
 # Work Experience
 I have experience on multiple fields of software development, specially i'm focused on scripting and dockerization but My priority is to have the possibility to give good structure to the projects and keep them stable, key elements like good practices, modularization, unit testing, integration testing and keep them as updated as possible to have reliable projects.
@@ -88,8 +65,3 @@ Participating in [Wow Aura community](https://wowaura.com) gave me the motivatio
 
 ## Preferred Nickname
 Seeking is my preferred nickname for several things but when is not available i use SeekingAura.
-
----
-<!-- omit from toc -->
-# Navigation
-* [Main Index](/)

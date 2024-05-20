@@ -6,10 +6,7 @@ author_profile: true
 
 Welcome to the SeekingAura Site! Here you can find my public projects (SeekingAura dev), notes, and a wealth of information useful for developers, data scientists, server administrators, technology enthusiasts, and anyone seeking programming knowledge.
 
-
-
-# How read this site?
-# How to Read This Site
+# How to read this Site
 At the top of the website, there is a sidebar where you can find the main topics of the site. Click on any theme that interests you, such as:
 * Developer Notes
 * About

@@ -4,20 +4,21 @@ permalink: /
 author_profile: true
 ---
 
-Welcome to SeekingAura Site!, this is the Website site of seeking aura, site where i share public projects, public notes and more useful information for Devs, Data scientist, Server Admins, technology enthusiasts and any who wants information about programming
+Welcome to the SeekingAura Site! Here you can find my public projects (SeekingAura dev), notes, and a wealth of information useful for developers, data scientists, server administrators, technology enthusiasts, and anyone seeking programming knowledge.
+
+
 
 # How read this site?
-At the top of the website are a sidebar where can found the main topics of the website, click on any theme that you are interesed like
-* Developer notes
+# How to Read This Site
+At the top of the website, there is a sidebar where you can find the main topics of the site. Click on any theme that interests you, such as:
+* Developer Notes
 * About
 * Gaming Notes
 
-In most pages will have a navbar at left part of the website, there can found the different topics you can click to every topic that you want, as you browse the navbar will change showing the subtopics of the site you are on.
+Most pages will have a navbar on the left side of the website. There, you can find various topics and click on any that you wish to explore. As you browse, the navbar will update to show the subtopics of the section you are in.
 
-At the top you can navigate to 
+**I will update whenever possible. Enjoy!**
 
-**I will be updating whenever possible., Enjoy!!**
-
-**ToDo** Search bar
+**To-Do:** Add a search bar.
 {: .notice--info}
 

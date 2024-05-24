@@ -9,9 +9,16 @@ Use ssh with user and password it can be a bit annoying to write the password ea
 To prevent this and forgot password use pem/key file instead, this guide
 
 # TL;DR
-To create ssh Private and Public key run this command
+To create ssh Private and Public key at current dir run this command
+
+Windows-CMD
 ```bash
-ssh-keygen -t ed25519 -b 4096 -C "user@domain"
+ssh-keygen -t ed25519 -b 4096 -C "user@domain" -f %cd%/example-key
+```
+
+Windows-Powershell
+```powershell
+ssh-keygen -t ed25519 -b 4096 -C "user@domain" -f $PWD/example-key
 ```
 
 Set where the key pair will saved and set or not passphrase, then key pairs will created.

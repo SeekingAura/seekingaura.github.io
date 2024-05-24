@@ -19,7 +19,7 @@ docs:
       - title: "Dev Notes"
         url: /docs/dev_notes/
 
-
+# dev_notes
 dev_notes:
   - title: Dev Notes
     url: /docs/dev_notes/
@@ -47,4 +47,25 @@ dev_notes-ssh:
     children:
       - title: "With Key"
         url: /docs/dev_notes/ssh/with_key/
-      
+
+# about
+about:
+  - title: About topics
+    children:
+      - title: "Experience"
+        url: /about/exp/
+      - title: "Education/Formation"
+        url: /about/edu/
+  - title: ← Back to Index
+    url: /
+
+about-work:
+  - title: Work experience
+    url: /about/exp/
+    children:
+      - title: "2013-Before University"
+        url: /about/exp/2013_before_university/
+  - title: ← Back to About
+    url: /about/
+  - title: ← Back to Index
+    url: /

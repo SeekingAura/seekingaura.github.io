@@ -3,31 +3,28 @@ title: About Seeking Aura
 permalink: /about/
 author_profile: true
 toc: true
+sidebar:
+    nav: "about"
 ---
 
-Hi!!!
+Hi!
 
-I am a versatile and skilled in software development with over six years of experience in various roles such as Django Developer, Software Architect, Site Reliability Engineer, Database Administrator. 
+I am a curious person who will research a topic if I do not understand it well. I am resilient, always striving to improve things, and a kind individual who loves to help and contribute to communities and teams. I am deeply invested in others' learning, ensuring they grasp not just the basics but also how things work and how they are connected-encouraging further research. This comprehensive understanding empowers each individual to contribute meaningfully and fosters their independent growth for the future.
 
-Actually i'm improving my expertise by solving algorithmic problems and keeping up with the latest changes in technology specially on Python, Linux Shell, Docker, Postgresql, Mysql, Oracle, Go, Rust and More! My focus is over Database administration (DBA).
+In the Computer Science field, I have worked as a Teacher, Software Developer, Software Development Team Leader, Software Architect, DevOps, Site Reliability Engineer (SRE), and Database Administrator (DBA). I have updated and improved applications for various companies, achieving significant results in alignment with their growth projections in data and technology, as permitted by their investment in and trust in the IT team.
 
-You can found a summary about me [here](https://github.com/SeekingAura)
+I have both formal and self-taught education (through courses, videos, and learning with partners) and stay up-to-date with the latest technologies in Software Development (Python, C#, C++, Rust, Go), System Administration (Ubuntu, Docker, Kubernetes, AWS, Azure), and Monitoring (Grafana, Sentry, ELK).
 
-# Work Experience
-I have experience on multiple fields of software development, specially i'm focused on scripting and dockerization but My priority is to have the possibility to give good structure to the projects and keep them stable, key elements like good practices, modularization, unit testing, integration testing and keep them as updated as possible to have reliable projects.
+On the sidebar located at left of the website, you can navigate to other topics about me, such as work experience, education, and more!
 
-## Data Base Administrator
-Manage databases like Postgresql, Oracle, MongoDB, create tables, indexes, users, monitoring, help the organizations to reach a government of data (standards of data management)
-## Data science
-Perform analytics over data about organization, operations, billing, fraud detection, alerts, monitoring. Manage data pipelines.
-## Web Development
-Specially focus on Backend Development with Django Rest Framework, Fast API. Deployment web sites and usage Nginx, Cloudflare.
-## Containerization
-Most of my personal and work projects have Dockerfiles, Docker compose files with that perform deployment (production) on linux containers with Docker
-## Server Administrador (Linux)
-i love linux systems more control, more cheaper, versatile and Open Source
-## Gaming programming Scripts and Server
-Some game "servers" are in C++ and projects like https://www.trinitycore.org/, https://www.azerothcore.org/ i love execute, make changes and contribute to private servers that use these projects with custom modifications, fixes and more.
+You can find more detailed information of my work on Software development topics at my [Github Profile](https://github.com/SeekingAura) and about my work experience (Everything) at my [Linkedin Profile](https://www.linkedin.com/in/carlos-arturo-moreno-tabares-4b323022b/).
+
+
+# Formation
+at 2011 i study my studies about Basic of Electronics, Software development at 2011 how mechatronic technician, then at 2013 i started to study Bachelor about Computing and systems engineering (Computer science, informatica)
+started to work in a formal way in IT (TI, Informatica) and Software Engineering  at 2018
+
+Currently, I'm enhancing my expertise by solving algorithmic problems and keeping up with the latest changes in technology, especially in Python, Linux Shell, Docker, PostgreSQL, MySQL, Oracle, Go, Rust, and more! My focus is on Database Administration (DBA).
 
 # Learning
 I never stop learning current i'm learning about Python, Data science, Big data Pandas, numpy.

@@ -4,6 +4,13 @@ permalink: /about/exp/
 toc: true
 sidebar:
     nav: "about-work"
+
+previous:
+    title: About Index
+    url: "/about/"
+next:
+    title: Exp Mechatronic (Associate's Degree) (2011-2013)
+    url: "/about/exp/2011-2013_before_university/"
 ---
 
 I have experience in multiple fields of software development, especially in scripting and dockerization. My priority is to structure projects effectively, ensure the best readability, and keep documentation up-to-date. Stability is key, along with good practices, modularization, unit testing, and integration testing. I strive to keep projects as updated as possible to maintain reliability and motivate the team to do the same.

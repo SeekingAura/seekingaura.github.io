@@ -5,6 +5,13 @@ author_profile: true
 toc: true
 sidebar:
     nav: "about"
+
+previous:
+    title: Main Index
+    url: "/"
+next:
+    title: Work Experience Index
+    url: "/about/exp/"
 ---
 
 Hi!

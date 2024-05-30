@@ -2,6 +2,7 @@ remote_theme: mmistakes/minimal-mistakes@4.26.1
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-sitemap
 minimal_mistakes_skin: dark
 locale: en-US
 # search https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-search

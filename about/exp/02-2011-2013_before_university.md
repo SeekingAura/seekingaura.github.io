@@ -4,6 +4,13 @@ permalink: /about/exp/2011-2013_before_university/
 # toc: true
 sidebar:
     nav: "about-work"
+
+previous:
+    title: Work Experience Index
+    url: "about/exp/"
+next:
+    title: Exp Teacher Assistant (Computer Science)
+    url: "/about/exp/2016-2018_teacher_assistant/"
 ---
 
 Before attending university, I engaged with academic projects on Associate's degree in [mechatronics](https://itspereira.edu.co/product/mecatronica/) at the [Instituto Técnico Superior de Pereira](https://itspereira.edu.co/). 

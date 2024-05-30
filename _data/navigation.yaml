@@ -63,9 +63,7 @@ about-work:
   - title: Work experience
     url: /about/exp/
     children:
-      - title: "(2011-2013)-Mechatronic (Associate's Degree)"
+      - title: "(2011-2013)-Academic Projs Mechatronic (Associate's)"
         url: /about/exp/2011-2013_before_university/
-  - title: ← Back to About
-    url: /about/
-  - title: ← Back to Index
-    url: /
+      - title: "(2016-2018)-Teacher Assistant"
+        url: /about/exp/2016-2018_teacher_assistant/

@@ -63,8 +63,13 @@ From February 2016 to November 2017, I was assigned to the compiler course how T
 Typically, students implement their own compiler with Python using the [SLY module](https://pypi.org/project/sly/), based on the rules of any language specified by the teacher. Here, students are encouraged to apply the best practices they have learned about data structures (especially graphs for AST generation) and algorithms. This course is an excellent opportunity for students to thoroughly understand how compilers function, and I thoroughly enjoyed it.
 {: .text-justify}
 
-I work how Teacher assistant of this course by 4 consecutive semesters
+I work how **Teacher assistant** of this course by 4 consecutive semesters
 {: .text-justify}
 
 # Course Cisco
-To-Do
+![CISCO partner utp](/assets/img/work/NetworkingAcademyPartner-logo-utp.png){: .align-left}
+From February 2018 to November 2018, I was assigned to the 'Networks with CISCO'. In this course, students learn about networking concepts including **IPv4**, **IPv6**, **VLANs**, and they also complete **CISCO exams/tests** (multiple-choice questions) and lab projects. For these projects, they configure switches and routers according to the lab work, both virtually with the **CISCO** simulator and physically in the **CISCO** computer lab, which is outfitted with the necessary routers, switches, and computers for the course, this is because the Universidad Tecnologica de pereira is a Networkign Academy partner of CISCO https://crie.utp.edu.co/servicios/administracion-de-servicios-especiales-mediados-por-tic/academia-cisco/.
+{: .text-justify}
+
+I served as a **Teacher Assistant** for this course for two consecutive semesters. These semesters were my final ones in the Systems and Computational Engineering program
+{: .text-justify}

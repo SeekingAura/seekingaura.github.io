@@ -9,14 +9,21 @@ previous:
     title: Exp Academic Projs Mechatronic (Associate's) (2011-2013)
     url: "/about/exp/2011-2013_before_university/"
     
-# next:
-#     title: ""
-#     url: ""
+next:
+    title: Exp 8Puzzle A* Academic IA Project
+    url: "/about/exp/2016_academic_proj_8puzzle/"
 ---
 
 ![ISC-Logo](/assets/img/work/isc-logo.jpeg){: .align-left}
 At the university where i study the career systems and computation engineering (Computer science) after having been 2 years studying the career i just looking for a job that allow me to study and makes a good fit with my process on study. 
 {: .text-justify}
+
+# Skills/Tools
+* CISCO
+* C++
+* Algorithms
+* Compilers
+* grammar and formal languages (Regex)
 
 # How i get the work?
 

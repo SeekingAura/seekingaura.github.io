@@ -1,5 +1,5 @@
 ---
-title: Exp Mechatronic (Associate's Degree) (2011-2013)
+title: Exp Academic Projs Mechatronic (Associate's) (2011-2013)
 permalink: /about/exp/2011-2013_before_university/
 # toc: true
 sidebar:

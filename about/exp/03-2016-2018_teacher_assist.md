@@ -6,7 +6,7 @@ sidebar:
     nav: "about-work"
 
 previous:
-    title: Exp Mechatronic (Associate's Degree) (2011-2013)
+    title: Exp Academic Projs Mechatronic (Associate's) (2011-2013)
     url: "/about/exp/2011-2013_before_university/"
     
 # next:

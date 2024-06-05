@@ -1,7 +1,7 @@
 ---
 title: Exp Academic Projs Mechatronic (Associate's) (2011-2013)
 permalink: /about/exp/2011-2013_before_university/
-# toc: true
+toc: true
 sidebar:
     nav: "about-work"
 
@@ -9,7 +9,7 @@ previous:
     title: Work Experience Index
     url: "about/exp/"
 next:
-    title: Exp Teacher Assistant (Computer Science)
+    title: Exp Teacher Assistant (Computer Science) (2011-2013)
     url: "/about/exp/2016-2018_teacher_assistant/"
 ---
 

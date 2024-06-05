@@ -1,5 +1,5 @@
 ---
-title: Exp Teacher Assistant (Computer Science)
+title: Exp Teacher Assistant (Computer Science) (2016-2018)
 permalink: /about/exp/2016-2018_teacher_assistant/
 toc: true
 sidebar:
@@ -10,7 +10,7 @@ previous:
     url: "/about/exp/2011-2013_before_university/"
     
 next:
-    title: Exp 8Puzzle A* Academic IA Project
+    title: Exp 8Puzzle A* Academic IA Project (2016)
     url: "/about/exp/2016_academic_proj_8puzzle/"
 ---
 

@@ -1,12 +1,12 @@
 ---
-title: Exp 8Puzzle A* Academic IA Project 
+title: Exp 8Puzzle A* Academic IA Project (2016)
 permalink: /about/exp/2016_academic_proj_8puzzle/
 toc: true
 sidebar:
     nav: "about-work"
 
 previous:
-    title: Exp Teacher Assistant (Computer Science)
+    title: Exp Teacher Assistant (Computer Science) (2016-2018)
     url: "/about/exp/2016-2018_teacher_assistant/"
     
 # next:

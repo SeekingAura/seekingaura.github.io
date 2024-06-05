@@ -63,9 +63,9 @@ about-work:
   - title: Work experience
     url: /about/exp/
     children:
-      - title: "(2011-2013)-Academic Projs Mechatronic (Associate's)"
+      - title: "Exp Academic Projs Mechatronic (Associate's) (2011-2013)"
         url: /about/exp/2011-2013_before_university/
-      - title: "(2016-2018)-Teacher Assistant"
+      - title: "Exp Teacher Assistant (Computer Science) (2016-2018)"
         url: /about/exp/2016-2018_teacher_assistant/
-      - title: "(2016)-8Puzzle A* Academic IA Project"
+      - title: "Exp 8Puzzle A* Academic IA Project (2016)"
         url: /about/exp/2016_academic_proj_8puzzle/

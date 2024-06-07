@@ -9,15 +9,15 @@ previous:
     title: Exp Teacher Assistant (Computer Science) (2016-2018)
     url: "/about/exp/2016-2018_teacher_assistant/"
     
-# next:
-#     title: ""
-#     url: ""
+next:
+    title: Exp Software Tester UTP (2018)
+    url: "/about/exp/2018_software_tester/"
 ---
 
 ![Robot](/assets/img/work/academic_ia_proj/robot.png)
 
 ![Tree graph](/assets/img/work/academic_ia_proj/tree.png){: .align-left}
-In semester five, I took an Artificial Intelligence course where I learned the basics about agents, multi-agent systems, heuristics, and others AI algorithms. At the end of the course, we were required to complete a project. In this case, the university had recently acquired 10 kits of the Lego EV3 Home Edition, and the instructor wanted the students to implement a "physical" project, such as a robot that uses an IA algorithm (learned from course) to solve a problem.
+In semester five (at 2016), I took an Artificial Intelligence course where I learned the basics about agents, multi-agent systems, heuristics, and others AI algorithms. At the end of the course, we were required to complete a project. In this case, the university had recently acquired 10 kits of the Lego EV3 Home Edition, and the instructor wanted the students to implement a "physical" project, such as a robot that uses an IA algorithm (learned from course) to solve a problem.
 {: .text-justify}
 
 I was responsible for the main software implementation and **Lejos** configuration (embedded OS to execute Java on the Brick). I completed this project with:

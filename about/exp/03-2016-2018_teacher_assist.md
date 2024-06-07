@@ -15,7 +15,7 @@ next:
 ---
 
 ![ISC-Logo](/assets/img/work/isc-logo.jpeg){: .align-left}
-At the university where i study the career systems and computation engineering (Computer science) after having been 2 years studying the career i just looking for a job that allow me to study and makes a good fit with my process on study. 
+At the university where i study the career systems and computation engineering (Computer science) after having been 2 years studying the career (at 2016) i just looking for a job that allow me to study and makes a good fit with my process on study. 
 {: .text-justify}
 
 # Skills/Tools

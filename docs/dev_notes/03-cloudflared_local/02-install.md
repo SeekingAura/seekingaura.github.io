@@ -1,5 +1,5 @@
 ---
-title: Cloudflared Local | Install
+title: Install
 permalink: /docs/dev_notes/cloudflared_local/install/
 toc: true
 ---

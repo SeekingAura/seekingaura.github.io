@@ -1,0 +1,12 @@
+# Custom names for breadcumbs by url path structure
+# example for /docs/dev_notes/linux_server-debian_based/disk/partition_resize/
+# docs:
+#   name: "Documentation"
+#   dev_notes:
+#     name: "Development Notes"
+#     linux_server-debian_based:
+#       name: "Linux Server - Debian Based"
+#       disk:
+#         name: "Disk Management"
+#         partition_resize:
+#           name: "Partition Resize"

@@ -21,32 +21,41 @@ docs:
 
 # dev_notes
 dev_notes:
-  - title: Dev Notes
-    url: /docs/dev_notes/
-    children:
-      - title: "Cloudflared Local Tunnel"
-        url: /docs/dev_notes/cloudflared_local/
-      - title: "SSH"
-        url: /docs/dev_notes/ssh/
+  - title: "SSH"
+    url: /docs/dev_notes/ssh/
+  - title: "Linux Servers Debian based"
+    url: /docs/dev_notes/linux_server-debian_based/
+  - title: "Cloudflared Local Tunnel"
+    url: /docs/dev_notes/cloudflared_local/
+
+# SSH
+dev_notes-ssh:
+  - title: "With Key"
+    url: /docs/dev_notes/ssh/with_key/
 
 # Cloudflared Local
 dev_notes-cloudflared_local:
-  - title: Cloudflared Local Tunnel
+  - title: Intro
     url: /docs/dev_notes/cloudflared_local/
+  - title: Pre-requisites
     children:
       - title: "Install"
         url: /docs/dev_notes/cloudflared_local/install/
       - title: "Auth"
         url: /docs/dev_notes/cloudflared_local/auth/
-      - title: "Create Tunnel"
-        url: /docs/dev_notes/cloudflared_local/create_tunnel/
+  - title: "Create Tunnel"
+    url: /docs/dev_notes/cloudflared_local/create_tunnel/
 
-dev_notes-ssh:
-  - title: SSH
-    url: /docs/dev_notes/ssh/
+# Cloudflared Local
+dev_notes-linux_server-debian_based:
+  - title: Intro
+    url: /docs/dev_notes/linux_server-debian_based/
+  - title: Disk, Storage
+    url: /docs/dev_notes/linux_server-debian_based/disk/
     children:
-      - title: "With Key"
-        url: /docs/dev_notes/ssh/with_key/
+      - title: "Partition resize"
+        url: /docs/dev_notes/linux_server-debian_based/disk/partition_resize/
+
 
 # about
 about:
@@ -56,8 +65,6 @@ about:
         url: /about/exp/
       - title: "Education/Formation"
         url: /about/edu/
-  - title: ← Back to Index
-    url: /
 
 about-work:
   - title: Work experience

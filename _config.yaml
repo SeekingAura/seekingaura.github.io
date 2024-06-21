@@ -20,6 +20,7 @@ author:
       url: "https://github.com/SeekingAura"
 enable_copy_code_button: true
 title_separator: "|"
+breadcrumbs: true
 
 defaults:
   # _pages
@@ -30,18 +31,25 @@ defaults:
       layout: single
       toc_label: "Table of Contents"
       toc_sticky: true
+  # Dev notes
   - scope:
-      path: "docs/dev_notes/cloudflared_local"
-      type: pages
-    values:
-      sidebar:
-        nav: "dev_notes-cloudflared_local"
-  - scope:
-      path: "docs/dev_notes/ssh"
+      path: "docs/dev_notes/01-ssh"
       type: pages
     values:
       sidebar:
         nav: "dev_notes-ssh"
+  - scope:
+      path: "docs/dev_notes/02-linux_server-debian_based"
+      type: pages
+    values:
+      sidebar:
+        nav: "dev_notes-linux_server-debian_based"
+  - scope:
+      path: "docs/dev_notes/03-cloudflared_local"
+      type: pages
+    values:
+      sidebar:
+        nav: "dev_notes-cloudflared_local"
 
 name: Carlos Moreno
 title: SeekingAura Developer, Gamer

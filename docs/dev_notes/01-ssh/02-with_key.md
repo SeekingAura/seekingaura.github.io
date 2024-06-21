@@ -1,5 +1,5 @@
 ---
-title: SSH | pem/key file
+title: pem and key file
 permalink: /docs/dev_notes/ssh/with_key/
 toc: true
 ---

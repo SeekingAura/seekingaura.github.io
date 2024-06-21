@@ -50,7 +50,7 @@ dev_notes-cloudflared_local:
 dev_notes-linux_server-debian_based:
   - title: Intro
     url: /docs/dev_notes/linux_server-debian_based/
-  - title: Disk, Storage
+  - title: Disk
     url: /docs/dev_notes/linux_server-debian_based/disk/
     children:
       - title: "Partition resize"

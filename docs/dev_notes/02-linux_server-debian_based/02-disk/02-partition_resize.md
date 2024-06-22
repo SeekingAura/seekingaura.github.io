@@ -3,9 +3,9 @@ title: Partition resize
 permalink: /docs/dev_notes/linux_server-debian_based/disk/partition_resize/
 toc: true
 ---
+![dis_partitions](/assets/img/docs/linux_server-debian_based/disk-partitions.jpeg)
 
-
-This guide will give example about how resize case
+In some cases, we need to resize partitions on a disk, such as when the same disk in our system has been expanded (usually when our system is a guest of VMWare or Hyper-V) or if another volume or partition was deleted and we want to increase the size of another one.
 
 # Get info about disk and partitions
 To manage partitions, check how the disks are configured on your system. With that information, you can make a plan and make decisions.
@@ -46,11 +46,25 @@ Path                     Devices
 
 # Manage partition
 ## Resize Partition
+
+**NOTE:** It is recommended to unmount (using the `umount` command) the partition first to prevent write operations that may generate errors. Also, disable swap. If you have the machine in VMware or Hyper-V, take a snapshot BEFORE starting this process. If possible, run a Live CD (Try Ubuntu) and perform the resize operations from there.
+{: .notice--error}
+
+### Parted
+
+This process can run on the same disk partition where the OS is running, but risks still exist.
+{: .notice--warn}
+
 In some cases, there is free disk space, and we want to increase the size of one or more partitions (as in the [Get Current partitions structure](#get-current-partitions-structure) example). To do that, we will use `parted` on the `sda` device with the remaining free space. 
 
 Execute `parted` with the `/dev/sda` path that corresponds to the `sda` device.
 ```shell
 sudo parted /dev/sda
+```
+
+if you do not have installed parted (minimal installation does not have this) install with this
+```
+sudo apt install parted
 ```
 
 When this is executed, the shell will show this at the beginning.
@@ -64,6 +78,23 @@ For this example, we will resize partition 3 to use 100% of the remaining space.
 ```
 
 Then you can check with `lsblk` command the new disk status
+
+### cfdisk (Minimal case)
+
+This process can run on the same disk partition where the OS is running, but risks still exist.
+{: .notice--warn}
+
+If you insist not install any additional software use `cfdisk` follow this
+
+```
+sudo cfdisk /dev/sda
+```
+
+then will shouw an UI on terminal like this
+[![](/assets/img/screenshots/docs/linux_server-debian_based/cfdisk.png)](/assets/img/screenshots/docs/linux_server-debian_based/cfdisk.png)
+
+Select the partition that you want to resize and select Resize option, select the desired quantity and press enter.
+
 
 # Manage Volume
 ## Resize Volume

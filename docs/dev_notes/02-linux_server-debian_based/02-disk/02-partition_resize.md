@@ -48,12 +48,12 @@ Path                     Devices
 ## Resize Partition
 
 **NOTE:** It is recommended to unmount (using the `umount` command) the partition first to prevent write operations that may generate errors. Also, disable swap. If you have the machine in VMware or Hyper-V, take a snapshot BEFORE starting this process. If possible, run a Live CD (Try Ubuntu) and perform the resize operations from there.
-{: .notice--error}
+{: .notice--danger}
 
 ### Parted
 
-This process can run on the same disk partition where the OS is running, but risks still exist.
-{: .notice--warn}
+This process can be executed on the same disk partition where the OS is running, but risks still exist.
+{: .notice--warning}
 
 In some cases, there is free disk space, and we want to increase the size of one or more partitions (as in the [Get Current partitions structure](#get-current-partitions-structure) example). To do that, we will use `parted` on the `sda` device with the remaining free space. 
 
@@ -81,8 +81,8 @@ Then you can check with `lsblk` command the new disk status
 
 ### cfdisk (Minimal case)
 
-This process can run on the same disk partition where the OS is running, but risks still exist.
-{: .notice--warn}
+This process can be executed on the same disk partition where the OS is running, but risks still exist.
+{: .notice--warning}
 
 If you insist not install any additional software use `cfdisk` follow this
 

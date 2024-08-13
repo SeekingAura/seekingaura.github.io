@@ -27,7 +27,6 @@ winget --info
 
 if output something like this, winget was installed ok
 
-```
 Windows Package Manager v1.7.10661
 Copyright (c) Microsoft Corporation. All rights reserved.  
 <br>
@@ -36,7 +35,6 @@ System Architecture: X64
 Package: Microsoft.DesktopAppInstaller v1.22.10661.0  
 <br>
 Winget Directories  
-...
 {: .notice}
 
 If something is wrong try reboot system and try again run command info again

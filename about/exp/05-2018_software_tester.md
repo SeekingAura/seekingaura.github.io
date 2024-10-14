@@ -1,5 +1,5 @@
 ---
-title: Exp Software Tester UTP (2018)
+title: Exp Software Tester - UTP (2018)
 permalink: /about/exp/2018_software_tester/
 toc: true
 sidebar:
@@ -9,13 +9,13 @@ previous:
     title: Exp 8Puzzle A* Academic IA Project (2016)
     url: "/about/exp/2016_academic_proj_8puzzle/"
     
-# next:
-#     title: ""
-#     url: ""
+next:
+    title: Exp Teacher IoT - UTP (2018)
+    url: "/about/exp/2019_teacher_iot-utp/"
 ---
 
 ![Mobile tester representation](/assets/img/work/software_tester-2018/mobile_tester.jpeg){: .align-center}
-In 2018, at the university, I was a member of the research/investigation group GRANDE (GRupo de Avanzada eN Desarrollo de softwarE). At that time, the company INDESAP SAS approached the group leader to propose an agreement for participation in a project. This project involved the development process of a mobile app for Ukumari Zoo, focusing specifically on software testing, particularly performing manual tests. I was invited by the group to participate in this project.
+In 2018, at the university, I was a member of the research/investigation group GRANDE (Grupo de Avanzada en Desarrollo de software). At that time, the company INDESAP SAS approached the group leader to propose an agreement for participation in a project. This project involved the development process of a mobile app for Ukumari Zoo, focusing specifically on software testing, particularly performing manual tests. I was invited by the group to participate in this project.
 {: .text-justify}
 
 # Skills/Tools

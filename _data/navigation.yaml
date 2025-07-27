@@ -3,7 +3,7 @@ main:
   - title: Dev notes
     url: /docs/dev_notes/
     description: Code snipes and short tutorials about Software development
-  - title: "Gaming notes (ToDo)"
+  - title: "Gaming notes"
     url: /
     description: Tutorials about gaming
   - title: "About"
@@ -18,8 +18,12 @@ docs:
     children:
       - title: "Dev Notes"
         url: /docs/dev_notes/
+      - title: "Gaming notes"
+        url: /docs/gaming_notes/
 
-# dev_notes
+#
+# region dev_notes
+#
 dev_notes:
   - title: "SSH"
     url: /docs/dev_notes/ssh/
@@ -56,8 +60,39 @@ dev_notes-linux_server-debian_based:
       - title: "Partition resize"
         url: /docs/dev_notes/linux_server-debian_based/disk/partition_resize/
 
+#
+# endregion dev notes
+#
 
-# about
+#
+# region gaming_notes
+#
+
+gaming_notes-wow:
+  - title: "WoW - UI"
+    url: /docs/dev_notes/wow/ui/
+  - title: "Gaming notes (BACK)"
+    url: /docs/gaming_notes/
+
+#
+# endregion gaming_notes
+#
+
+#
+# region gaming_notes Wow
+#
+
+gaming_notes:
+  - title: "World of Warcraft"
+    url: /docs/dev_notes/wow/
+
+#
+# endregion gaming_notes Wow
+#
+
+#
+# region about
+#
 about:
   - title: About topics
     children:
@@ -80,3 +115,7 @@ about-work:
         url: /about/exp/2018_software_tester/
       - title: Exp Teacher IoT - UTP (2019)
         url: /about/exp/2019_teacher_iot-utp/
+
+#
+# endregion about
+#

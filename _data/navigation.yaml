@@ -4,7 +4,7 @@ main:
     url: /docs/dev_notes/
     description: Code snipes and short tutorials about Software development
   - title: "Gaming notes"
-    url: /
+    url: /docs/gaming_notes/
     description: Tutorials about gaming
   - title: "About"
     url: /about/

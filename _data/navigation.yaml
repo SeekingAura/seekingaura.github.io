@@ -70,7 +70,7 @@ dev_notes-linux_server-debian_based:
 
 gaming_notes-wow:
   - title: "WoW - UI"
-    url: /docs/dev_notes/wow/ui/
+    url: /docs/gaming_notes/wow/ui/
   - title: "Gaming notes (BACK)"
     url: /docs/gaming_notes/
 
@@ -84,7 +84,7 @@ gaming_notes-wow:
 
 gaming_notes:
   - title: "World of Warcraft"
-    url: /docs/dev_notes/wow/
+    url: /docs/gaming_notes/wow/
 
 #
 # endregion gaming_notes Wow

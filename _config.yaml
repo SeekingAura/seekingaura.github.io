@@ -6,6 +6,10 @@ plugins:
 minimal_mistakes_skin: dark
 locale: en-US
 # search https://mmistakes.github.io/minimal-mistakes/docs/configuration/#site-search
+search: true
+lunr:
+  search_within_pages: true
+search_provider: lunr
 author:
   name: "Carlos Moreno"
   avatar: "https://avatars.githubusercontent.com/u/14566919?v=4"

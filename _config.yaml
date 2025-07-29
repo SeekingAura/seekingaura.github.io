@@ -10,6 +10,9 @@ search: true
 lunr:
   search_within_pages: true
 search_provider: lunr
+google:
+  search_engine_id: 63c0879e38e514fdb
+
 author:
   name: "Carlos Moreno"
   avatar: "https://avatars.githubusercontent.com/u/14566919?v=4"

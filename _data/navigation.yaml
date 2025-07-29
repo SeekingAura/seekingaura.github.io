@@ -68,9 +68,11 @@ dev_notes-linux_server-debian_based:
 # region gaming_notes
 #
 
-gaming_notes-wow:
-  - title: "WoW - UI"
-    url: /docs/gaming_notes/wow/ui/
+gaming_notes-wow_retail:
+  - title: "First Steps"
+    url: /docs/gaming_notes/wow_retail/first/
+  - title: "UI"
+    url: /docs/gaming_notes/wow_retail/ui/
   - title: "Gaming notes (BACK)"
     url: /docs/gaming_notes/
 
@@ -79,15 +81,15 @@ gaming_notes-wow:
 #
 
 #
-# region gaming_notes Wow
+# region gaming_notes WoW Retail
 #
 
 gaming_notes:
-  - title: "World of Warcraft"
-    url: /docs/gaming_notes/wow/
+  - title: "World of Warcraft - Retail"
+    url: /docs/gaming_notes/wow_retail/
 
 #
-# endregion gaming_notes Wow
+# endregion gaming_notes Wow Retail
 #
 
 #

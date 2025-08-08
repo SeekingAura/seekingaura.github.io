@@ -71,6 +71,8 @@ dev_notes-linux_server-debian_based:
 gaming_notes-wow_retail:
   - title: "First Steps"
     url: /docs/gaming_notes/wow_retail/first/
+  - title: "Graphics"
+    url: /docs/gaming_notes/wow_retail/graphics/
   - title: "UI"
     url: /docs/gaming_notes/wow_retail/ui/
   - title: "Gaming notes (BACK)"

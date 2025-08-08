@@ -1,6 +1,7 @@
 ---
 title: WoW Retail - First Steps
 permalink: /docs/gaming_notes/wow_retail/first/
+toc: true
 
 previous:
     title: World Of Warcraft Retail (WoW Retail)

@@ -1,6 +1,7 @@
 ---
 title: WoW Retail-Graphics
 permalink: /docs/gaming_notes/wow_retail/graphics/
+toc: true
 
 previous:
     title: WoW Retail-First Steps

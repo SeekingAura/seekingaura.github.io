@@ -182,3 +182,11 @@ Allow to use multiple CPU threads for Rendering, most in the cases works well if
 
 ## Advanced Work Submit
 Allow Code Paths for GPU, disable if you are experimenting crash related to GPU issue, **Recommended Value Enabled**
+
+# References
+* https://www.wowhead.com/guide/world-of-warcraft-performance-benchmarking-and-troubleshooting-17556
+* https://www.wowhead.com/news/optimizing-fps-in-the-war-within-known-issues-and-solutions-347669
+* [Quazii WoW - Youtube Video WoW Graphics](https://www.youtube.com/watch?v=OFpHIAe_MS4) 
+* [AlterTime - Youtube Video WoW Graphics](https://www.youtube.com/watch?v=TyemqDDn0Hw)
+* [xenulias - Youtube Video WoW Graphics](https://www.youtube.com/watch?v=A3cplCWgGgM)
+* [SouzaCarlosTV - Youtube Video WoW Graphics](https://www.youtube.com/watch?v=NmmsiGB_o3k) 

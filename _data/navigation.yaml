@@ -69,6 +69,8 @@ dev_notes-linux_server-debian_based:
 #
 
 gaming_notes-wow_retail:
+  - title: "Install"
+    url: /docs/gaming_notes/wow_retail/install/
   - title: "First Steps"
     url: /docs/gaming_notes/wow_retail/first/
   - title: "Graphics"

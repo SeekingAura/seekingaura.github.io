@@ -57,6 +57,14 @@ defaults:
     values:
       sidebar:
         nav: "dev_notes-cloudflared_local"
+  - scope:
+      path: "docs/gaming_notes/wow_retail"
+      type: pages
+    values:
+      sidebar:
+        nav: "gaming_notes-wow_retail"
+
+        
 
 name: Carlos Moreno
 title: SeekingAura Developer, Gamer
